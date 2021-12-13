@@ -1,0 +1,19 @@
+{
+    "minecraft": {
+        "host": "",
+        "port": 25565,
+        "motd": "\u00a76Log4Shell Exploit Checker",
+        "favicon": null
+    },
+    "webserver": {
+        "url": "localhost",
+        "host": "",
+        "port": 8888
+    },
+    "messages": {
+        "vulnerable_kick": "\u00a7cYour Minecraft installation is vulnerable to the Log4Shell exploit.",
+        "safe_kick": "\u00a7aYour client does not appear to be vulnerable to the Log4Shell exploit!",
+        "explanation": {"color": "aqua", "text": "This is a test message from Log4Check. If you are kicked because of this message, you are vulnerable to the current Log4Shell exploit."},
+        "webserver": "This server is operated as an early warning system for clients potentially affected by <a href=\"https://www.lunasec.io/docs/blog/log4j-zero-day/\">Log4Shell</a>, a 0-day exploit affecting Minecraft versions from 1.7 to 1.18."
+    }
+}
